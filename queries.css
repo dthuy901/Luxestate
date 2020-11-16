@@ -54,7 +54,7 @@
         flex-wrap: wrap;
     }
     .padding-more {
-        margin-left: 35px;
+        margin-left: 0px;
     }
     nav ul li:first-child a {
         margin-left: 0;
@@ -87,6 +87,8 @@
         /* appartments */
         .for-rent ul {
             flex-direction: column;
+                -webkit-flex-direction: column;
+                -moz-flex-direction: column;
         }
         .more {
             justify-content: space-between;
@@ -103,7 +105,10 @@
         }
         .how-it-works ul li span {
             transform: translate(-70px, -42px);
-        }
+                -webkit-transform: translate(-70px, -42px);
+                -moz-transform: translate(-70px, -42px);
+                -o-transform: translate(-70px, -42px);
+}
         .how-it-works h6 {
             line-height: 35px;
         }
@@ -167,7 +172,10 @@
             top: 35%;
             width: 70%;
             transform: translate(-50%, -50%);
-        }
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+}
         .hero-text h1 {
             font-size: 37px;
             text-align: center;
@@ -207,6 +215,9 @@
         .hero-img ul li:last-child::before {
             left: 9px;
         }
+        .scroll {
+            bottom: 84px;
+        }
         /* about */
         #about-us {
             display: block;
@@ -241,6 +252,7 @@
         .more .search {
             margin-right: 0px;
             flex-basis: 485px;
+                -webkit-flex-basis: 485px;
             margin: 20px auto;
         }
         .more a{
@@ -278,6 +290,9 @@
         .how-it-works ul li:not(:first-child) {
             background-color: #fff;
             border: 1px solid #ffcc01;
+                -webkit-border: 1px solid #ffcc01;
+                -o-border: 1px solid #ffcc01;
+                -moz-border: 1px solid #ffcc01;
         }
         /* agents */
         .our-agents .container > div {
@@ -371,6 +386,7 @@
             text-transform: capitalize;
             height: 25px;
             line-height: 25px;
+            margin-left: 0;
         }
         .hero-text h1 {
             font-size: 29px;
@@ -596,6 +612,8 @@
         }
         .hero-img ul {
             flex-direction: column;
+                -webkit-flex-direction: column;
+                -moz-flex-direction: column;
         }
         .hero-img ul li:first-child, .hero-img ul li:last-child {
             padding: 0 10px;
@@ -621,6 +639,7 @@
         }
         .our-agents .container > div > div > div > div {
             flex-wrap: wrap;
+                -webkit-flex-wrap: wrap;
         }
         .our-agents .container > div > div > div > h6 {
             margin-bottom: 10px;
