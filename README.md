@@ -1,3 +1,3 @@
 # Luxestate
-Link:  https://dthuy901.github.io/Luxestate/
+Link:  https://tmeid.github.io/Luxestate/
 ![Design preview](./imgs/design.png)
